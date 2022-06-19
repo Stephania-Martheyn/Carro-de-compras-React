@@ -1,0 +1,23 @@
+
+.footer {
+    width:100%;
+    height:36px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #BC8F8F;
+}
+.Presentacion{
+    color:white;
+}
+.MiGitHub{
+    color:white;
+}
+a { 
+    text-decoration: none;
+}
+a:hover{
+    color:#C71585;
+}

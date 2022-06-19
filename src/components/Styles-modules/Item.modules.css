@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.producto {
+  box-shadow: 0px 2px 20px 0px #1f151a;
+  padding: 20px;
+  width: 33%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #FFC0CB;
+}
+
+.nombreDelProducto {
+  color: #1f151a;
+  margin-bottom: 10px;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+.DescripcionDelProducto {
+  text-align: justify;
+}
+
+.imagenStock {
+  align-self: center;
+  position: relative;
+  width: 35%;
+}
+
+.mensajeStock {
+  text-align: center;
+  margin: 5px;
+
+}
+
+.agotado {
+  background-color: red;
+  padding: 3px;
+  font-weight: lighter;
+  color: white;
+  border-radius: 3px;
+  margin-left: 10px;
+
+}
+
