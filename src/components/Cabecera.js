@@ -6,8 +6,6 @@ export default function Cabecera({ cantidad }) {
     <header className={styles.header}>
       <h1 className={styles.titulo}>Carrito de compras</h1>
       <p>&#x1F33C; Haz seleccionado  <span className={styles.contador}>{cantidad}</span> de productos &#x1F33C; </p>
-      
-      {/*<p>&#9889; Haz seleccionado <span className={styles.descripcion}>{count} </span> productos &#9889; </p> */}
     </header>
   );
 }
